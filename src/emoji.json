@@ -136,20 +136,6 @@
     , "ios_version": "9.1"
     }
   , {
-      "emoji": "🫠"
-    , "description": "melting face"
-    , "category": "Smileys & Emotion"
-    , "aliases": [
-        "melting_face"
-      ]
-    , "tags": [
-        "sarcasm"
-      , "dread"
-      ]
-    , "unicode_version": "14.0"
-    , "ios_version": "15.4"
-    }
-  , {
       "emoji": "😉"
     , "description": "winking face"
     , "category": "Smileys & Emotion"
@@ -254,7 +240,7 @@
     , "ios_version": "6.0"
     }
   , {
-      "emoji": "☺️"
+      "emoji": "😊"
     , "description": "smiling face"
     , "category": "Smileys & Emotion"
     , "aliases": [
@@ -410,32 +396,6 @@
     , "ios_version": "12.1"
     }
   , {
-      "emoji": "🫢"
-    , "description": "face with open eyes and hand over mouth"
-    , "category": "Smileys & Emotion"
-    , "aliases": [
-        "face_with_open_eyes_and_hand_over_mouth"
-      ]
-    , "tags": [
-        "gasp"
-      , "shock"
-      ]
-    , "unicode_version": "14.0"
-    , "ios_version": "15.4"
-    }
-  , {
-      "emoji": "🫣"
-    , "description": "face with peeking eye"
-    , "category": "Smileys & Emotion"
-    , "aliases": [
-        "face_with_peeking_eye"
-      ]
-    , "tags": [
-      ]
-    , "unicode_version": "14.0"
-    , "ios_version": "15.4"
-    }
-  , {
       "emoji": "🤫"
     , "description": "shushing face"
     , "category": "Smileys & Emotion"
@@ -461,20 +421,7 @@
     , "unicode_version": "8.0"
     , "ios_version": "9.1"
     }
-  , {
-      "emoji": "🫡"
-    , "description": "saluting face"
-    , "category": "Smileys & Emotion"
-    , "aliases": [
-        "saluting_face"
-      ]
-    , "tags": [
-        "respect"
-      ]
-    , "unicode_version": "14.0"
-    , "ios_version": "15.4"
-    }
-  , {
+  ,{
       "emoji": "🤐"
     , "description": "zipper-mouth face"
     , "category": "Smileys & Emotion"
@@ -539,19 +486,6 @@
       ]
     , "unicode_version": "6.0"
     , "ios_version": "6.0"
-    }
-  , {
-      "emoji": "🫥"
-    , "description": "dotted line face"
-    , "category": "Smileys & Emotion"
-    , "aliases": [
-        "dotted_line_face"
-      ]
-    , "tags": [
-        "invisible"
-      ]
-    , "unicode_version": "14.0"
-    , "ios_version": "15.4"
     }
   , {
       "emoji": "😶‍🌫️"
@@ -2198,58 +2132,6 @@
     , "skin_tones": true
     }
   , {
-      "emoji": "🫱"
-    , "description": "rightwards hand"
-    , "category": "People & Body"
-    , "aliases": [
-        "rightwards_hand"
-      ]
-    , "tags": [
-      ]
-    , "unicode_version": "14.0"
-    , "ios_version": "15.4"
-    , "skin_tones": true
-    }
-  , {
-      "emoji": "🫲"
-    , "description": "leftwards hand"
-    , "category": "People & Body"
-    , "aliases": [
-        "leftwards_hand"
-      ]
-    , "tags": [
-      ]
-    , "unicode_version": "14.0"
-    , "ios_version": "15.4"
-    , "skin_tones": true
-    }
-  , {
-      "emoji": "🫳"
-    , "description": "palm down hand"
-    , "category": "People & Body"
-    , "aliases": [
-        "palm_down_hand"
-      ]
-    , "tags": [
-      ]
-    , "unicode_version": "14.0"
-    , "ios_version": "15.4"
-    , "skin_tones": true
-    }
-  , {
-      "emoji": "🫴"
-    , "description": "palm up hand"
-    , "category": "People & Body"
-    , "aliases": [
-        "palm_up_hand"
-      ]
-    , "tags": [
-      ]
-    , "unicode_version": "14.0"
-    , "ios_version": "15.4"
-    , "skin_tones": true
-    }
-  , {
       "emoji": "👌"
     , "description": "OK hand"
     , "category": "People & Body"
@@ -2316,19 +2198,6 @@
       ]
     , "unicode_version": "9.0"
     , "ios_version": "10.2"
-    , "skin_tones": true
-    }
-  , {
-      "emoji": "🫰"
-    , "description": "hand with index finger and thumb crossed"
-    , "category": "People & Body"
-    , "aliases": [
-        "hand_with_index_finger_and_thumb_crossed"
-      ]
-    , "tags": [
-      ]
-    , "unicode_version": "14.0"
-    , "ios_version": "15.4"
     , "skin_tones": true
     }
   , {
@@ -2450,19 +2319,6 @@
     , "skin_tones": true
     }
   , {
-      "emoji": "🫵"
-    , "description": "index pointing at the viewer"
-    , "category": "People & Body"
-    , "aliases": [
-        "index_pointing_at_the_viewer"
-      ]
-    , "tags": [
-      ]
-    , "unicode_version": "14.0"
-    , "ios_version": "15.4"
-    , "skin_tones": true
-    }
-  , {
       "emoji": "👍"
     , "description": "thumbs up"
     , "category": "People & Body"
@@ -2578,20 +2434,6 @@
       ]
     , "unicode_version": "6.0"
     , "ios_version": "6.0"
-    , "skin_tones": true
-    }
-  , {
-      "emoji": "🫶"
-    , "description": "heart hands"
-    , "category": "People & Body"
-    , "aliases": [
-        "heart_hands"
-      ]
-    , "tags": [
-        "love"
-      ]
-    , "unicode_version": "14.0"
-    , "ios_version": "15.4"
     , "skin_tones": true
     }
   , {
@@ -2913,18 +2755,6 @@
       ]
     , "unicode_version": "6.0"
     , "ios_version": "6.0"
-    }
-  , {
-      "emoji": "🫦"
-    , "description": "biting lip"
-    , "category": "People & Body"
-    , "aliases": [
-        "biting_lip"
-      ]
-    , "tags": [
-      ]
-    , "unicode_version": "14.0"
-    , "ios_version": "15.4"
     }
   , {
       "emoji": "👶"

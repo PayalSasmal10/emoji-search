@@ -1,23 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import JSONDATA from './emoji.json';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <input type="text" placeholder='Seach Emoji.....'/>
+      {JSONDATA.map((val, key) => {
+        return (
+          <p>{val.emoji}{val.description}</p>
+        );
+      })}
     </div>
   );
 }
