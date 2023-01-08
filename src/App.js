@@ -8,7 +8,9 @@ function App() {
       <input type="text" placeholder='Seach Emoji.....'/>
       {JSONDATA.map((val, key) => {
         return (
-          <p>{val.emoji}{val.description}</p>
+          <div className=''>
+            <p>{val.emoji}{val.description}</p>
+          </div>
         );
       })}
     </div>
