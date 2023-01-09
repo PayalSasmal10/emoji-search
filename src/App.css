@@ -1,13 +1,13 @@
 .App {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .App input {
-  margin-top: 20px;
+  margin: 20px;
   width: 400px;
   height: 40px;
   font-size: 20px;
@@ -16,9 +16,9 @@
 
 .emojiRow {
   border-bottom: 1px solid #ccc;
-  padding: 30px;
-  height: 32px;
-  width: 1400px;
+  margin: 30px;
+  height: 5vh;
+  width: 90vw;
   position: relative;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   cursor: pointer;
@@ -27,15 +27,14 @@
 .emojiRow .description {
   position: relative;
   top: -8px;
-  margin: 10px;
   font-size: 20px;
 }
 
 .emojiRow .info {
   float: right;
   position: relative;
-  top: 8px;
-  right: 10px;
+  top: -20px;
+  right: 8px;
   color: #ccc;
   display: none;
 }

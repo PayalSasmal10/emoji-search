@@ -1,21 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
 import JSONDATA from './emoji.json';
-import { useState } from 'react';
-import copy from "copy-to-clipboard"
+import React, { useState } from 'react';
+import { CopyToClipboard } from "react-copy-to-clipboard";
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
-  const [copyText, setCopyText] = useState('');
+  const [isCopied, setIsCopied] = useState(false);
 
   const searchHandler = (event) => {
     setSearchTerm(event.target.value);
+    
   }
 
   const copyTextHandler = (event) => {
-    setCopyText(event.target.value);
-    copy(copyText);
-    console.log(copyText);
+    setIsCopied(true);
   }
  
 
@@ -31,10 +30,15 @@ function App() {
         }
       }).map((val, key) => {
         return (
-          <div className="emojiRow">
+          <React.Fragment>
+            <div className="emojiRow">
             <span className='description'>{val.emoji}{" "}{val.description}</span>
-            <span value={copyText} className='info' onClick={copyTextHandler}>Click to copy emoji</span>
+            <CopyToClipboard onClick={copyTextHandler}>
+              <span className='info' >Click to copy emoji</span>
+            </CopyToClipboard>
           </div>
+          </React.Fragment>
+          
         );
       })}
     </div>
