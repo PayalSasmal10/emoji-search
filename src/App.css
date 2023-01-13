@@ -38,8 +38,10 @@
   right: 8px;
   color: #ccc;
   display: none;
+  border: 0.001px solid;
 }
 
 .emojiRow:hover .info{
   display: inline-block;
+
 }
