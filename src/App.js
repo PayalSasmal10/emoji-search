@@ -7,7 +7,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const [isCopied, setIsCopied] = useState(false);
-  
+  const textCopy = "Click to copy emoji";
 
   const searchHandler = (event) => {
     setSearchTerm(event.target.value);
@@ -15,6 +15,7 @@ function App() {
 
   const copyTextHandler = () => {
     setIsCopied(true);
+    // textCopy
     console.log("I am working");
     setTimeout(() => {
       setIsCopied(false);
@@ -48,7 +49,7 @@ function App() {
                 {val.emoji} {val.description}
               </span>
               <CopyToClipboard text={val.emoji} onCopy={copyTextHandler}>
-                <span className='info'> {isCopied ? "" : ""}
+                <span className='info'> {isCopied ? "Copied" : ""}
                   Click to copy emoji
                 </span>
               </CopyToClipboard>
