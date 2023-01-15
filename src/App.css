@@ -17,7 +17,7 @@
 
 .emojiRow {
   border-bottom: 1px solid #ccc;
-  margin: 30px;
+  margin: 20px;
   height: 5vh;
   width: 90vw;
   position: relative;
@@ -27,7 +27,7 @@
 
 .emojiRow .description {
   position: relative;
-  top: -8px;
+  top: -9px;
   font-size: 20px;
 }
 
@@ -36,9 +36,9 @@
   position: relative;
   top: -20px;
   right: 8px;
-  color: #ccc;
+  color: #a59fa5;
   display: none;
-  border: 0.001px solid;
+  border: 1px;
 }
 
 .emojiRow:hover .info{

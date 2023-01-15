@@ -18,7 +18,7 @@ function App() {
     console.log("I am working");
     setTimeout(() => {
       setIsCopied(false);
-    }, 1000);
+    }, 2000);
   };
 
   return (
@@ -42,18 +42,18 @@ function App() {
         }
       }).map((val, key) => {
         return (
-          <React.Fragment>
+          <CopyToClipboard text={val.emoji} onCopy={copyTextHandler}>
             <div className="emojiRow">
               <span className="description">
                 {val.emoji} {val.description}
               </span>
-              <CopyToClipboard text={val.emoji} onCopy={copyTextHandler}>
+              
                 <span className='info'> 
                   {!isCopied ? 'Click to copy emoji': 'Copied'}
+                  {/* {isCopied ? "Copied" : ""} */}
                 </span>
-              </CopyToClipboard>
             </div>
-          </React.Fragment>
+          </CopyToClipboard>
         );
       })}
     </div>
