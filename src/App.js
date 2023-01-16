@@ -18,7 +18,7 @@ function App() {
     console.log("I am working");
     setTimeout(() => {
       setIsCopied(false);
-    }, 2000);
+    }, 1000);
   };
 
   return (
