@@ -4,16 +4,42 @@
   align-items: center;
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
+  
 }
 
+.emoji-layout {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: #faf9ff;
+  /* margin-bottom: 40px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+
 .App input {
-  margin: 20px;
+  margin: 15px 16px 25px;
   width: 400px;
   height: 40px;
   font-size: 20px;
   padding-left: 15px;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) ; */
   max-width: 80%;
 }
+
+.wrapping-jsondata{
+  position: relative;
+  z-index: 1;
+}
+
 
 .emojiRow {
   border-bottom: 1px solid #ccc;
