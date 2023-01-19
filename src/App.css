@@ -12,7 +12,7 @@
   position: fixed;
   top: 0;
   z-index: 100;
-  background-color: #faf9ff;
+  background-color: #F7F7F7;
   /* margin-bottom: 40px; */
   display: flex;
   flex-direction: column;
@@ -49,6 +49,7 @@
   position: relative;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   cursor: pointer;
+  
 }
 
 .emojiRow .description {
