@@ -4,9 +4,11 @@ import JSONDATA from "./emoji.json";
 import React, { useState } from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
+
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const [isCopied, setIsCopied] = useState(false);
+
 
   const searchHandler = (event) => {
     setSearchTerm(event.target.value);
@@ -47,7 +49,7 @@ function App() {
           }
         }).map((val, key) => {
           return (
-            <CopyToClipboard text={val.emoji} onCopy={copyTextHandler}>
+            <CopyToClipboard text={val.emoji} onCopy={copyTextHandler} >
               <div className="emojiRow">
                 <span className="description">
                   {val.emoji} {val.description}
@@ -59,6 +61,7 @@ function App() {
                 </span>
               </div>
             </CopyToClipboard>
+            
           );
         })}
       </div>

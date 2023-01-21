@@ -36,8 +36,12 @@
 }
 
 .wrapping-jsondata{
-  position: relative;
+  /* position: relative; */
   z-index: 1;
+  max-height: 8 0px;
+  height: 30%;
+  display: inline-block;
+  margin: 200px;
 }
 
 
